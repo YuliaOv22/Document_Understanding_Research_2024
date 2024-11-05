@@ -1,5 +1,28 @@
 # Распознавание типовых документов с помощью мультимодальных моделей
 
+Исследовать:
+- договоры
+- товарные накладные
+- счета на оплату
+- паспорт
+- таблицы с данными на изображении
+
+Вытаскивать:
+- реквизиты сторон
+- список товаров
+- суммы платежей
+- срок действия договора
+
+Формат на вход:
+- pdf
+- картинка
+- промпт
+
+Формат на выход:
+- словарь с ключевой информацией из документа и мета-инфой 
+(ббокс текста, возможно уверенность в распознавании текста)
+
+## Tools
 ### Vision-Language Models (VLLMs)				
 These models can understand and process both visual and textual data, useful for tasks like document layout understanding.				
 - Donut -	Designed for structured document understanding, works well with documents like invoices, receipts, and contracts - NAVER - https://huggingface.co/naver-clova-ix/donut-base-finetuned-docvqa
@@ -69,6 +92,70 @@ These are general-purpose language models that can be fine-tuned for document un
 				
 ### ICDAR 2024 Proceedings	
 The 18th International Conference on Document Analysis and Recognition (ICDAR) features numerous papers on cutting-edge topics such as document image processing, layout analysis, and text recognition - https://icdar2024.net/procceedings/
+
+
+## Companies
+
+- Smart Engines
+https://smartengines.ru/clients/
+https://smartengines.ru/blog/
+    * Скорость распознавания – 15 страниц в сек без GPU (4.6-битные нейросети)
+    * Нейросетевая OCR на основе квазисимвологий
+    * Геометрически осведомленный ИИ (Geometry-Aware AI)
+    * Распознавание печатных и рукописных документов на 102 языках мира за счет использования уникальных моделей синтеза обучающих данных
+    * Распознавание сканов и фотографий, автоматическая классификация и сортировка документов
+    * Распознавание печатных и рукописных реквизитов, таблиц, чекбоксов, штрихкодов
+    * On-premise – поставляется в виде SDK с API для интеграции в различные системы (ERP, RPA, ECM, CRM, АБС и т.д.) и мобильные приложения. Без риска утечки данных и коммерческой тайны
+    * Аутентификация бланков, проверка действительности документов, выявления цифровых подделок. Проверка цвета и наличия подписей и печатей
+
+- Beorg Smart Vision
+https://beorg.ru/kadrovye-buhgalterskie-documenty/
+https://beorg.ru/blog/
+    * Распознавание паспортов (качество 99+%, распознавание рукописных данных)
+    * Распознавание комплектов персональных документов (ИНН, СНИЛС, заявления, трудовые книжки, водительские удостоверения и пр.)
+    * Первичная бухгалтерская документация  и др.
+Ключевым моментом при этом является верификация оцифрованных данных силами операторов краудсорсинговой платформы.
+
+- Directum
+https://www.directum.ru/products/directum/intelligence
+    * Распознавание + человеческая верификация
+https://ecm-journal.ru/material/pochemu_servis_100-nogo_raspoznavanija_ehto_vishenka_na_torte_bukhgalterskogo_dokumentooborota
+- Энтера
+https://entera.pro/
+- 1С-Софт
+https://portal.1c.ru/applications/1C-Document-Recognition
+https://v8.1c.ru/its/services/1s-raspoznavanie-pervichnykh-dokumentov/
+- Content AI
+https://contentai.ru/
+
+
+## Статьи
+Для чего нужно распознавание в банковской сфере?
+https://smartengines.ru/blog/dlya-chego-nuzhno-raspoznavanie-v-bankovskoy-sfere/
+
+Публикационная активность и интеллектуальная деятельность Smart Engines за первое полугодие 2024 год
+https://smartengines.ru/science/publications/#web_of_science
+
+Как мы поставили точку в распознавании паспорта, посадив программистов за прописи
+https://smartengines.ru/blog/kak-my-postavili-tochku-v-raspoznavanii-pasporta-posadiv-programmistov-za-propisi/
+
+Что такое разметка данных и для чего она нужна?
+https://beorg.ru/blog/chto-takoe-razmetka-dannyh-i-dlya-chego-ona-nuzhna/
+
+Распознавание паспортов и других документов: OCR на практике
+https://beorg.ru/blog/raspoznavanie-dokumentov-ocr-na-praktike/
+
+Поиск четырёхугольников документов на мобильных устройствах
+https://habr.com/ru/companies/smartengines/articles/260533/
+
+Биполярные морфологические сети: нейрон без умножения
+https://habr.com/ru/companies/smartengines/articles/497310/
+
+
+
+
+
+
 
 
 
