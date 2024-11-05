@@ -152,6 +152,20 @@ https://habr.com/ru/companies/smartengines/articles/260533/
 https://habr.com/ru/companies/smartengines/articles/497310/
 
 
+## Datasets
+
+1. OCR Receipts Text Detection - retail dataset
+https://www.kaggle.com/datasets/trainingdatapro/ocr-receipts-text-detection
+2. Handwriting Recognition(OCR)
+https://www.kaggle.com/datasets/ssarkar445/handwriting-recognitionocr/data
+3. Text extraction for OCR
+https://www.kaggle.com/datasets/manishthem/text-extraction-for-ocr/data
+4. Cyrillic Handwriting Dataset
+https://www.kaggle.com/datasets/constantinwerner/cyrillic-handwriting-dataset
+5. ID cards
+https://smartengines.ru/science/dataset/
+
+
 
 
 
