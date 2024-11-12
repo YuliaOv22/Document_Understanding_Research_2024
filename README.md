@@ -6,9 +6,17 @@ Full comparison table --> Tab "Models" [Google Sheets](https://docs.google.com/s
 
 
 ## Best suggestions
-- Qwen2-VL
-- MiniCPM-V 2.6
-- OmniFusion
+- [Qwen2-VL](https://github.com/QwenLM/Qwen2-VL)
+- [MiniCPM-V 2.6](https://github.com/OpenBMB/MiniCPM-V)
+- [OmniFusion](https://github.com/AIRI-Institute/OmniFusion)
+
+## Good choice
+- [ColPali](https://github.com/illuin-tech/colpali)
+- [Molmo](https://huggingface.co/allenai/Molmo-7B-D-0924)
+- [MiniMonkey](https://github.com/Yuliang-Liu/Monkey)
+- [mPLUG-DocOwl2](https://github.com/X-PLUG/mPLUG-DocOwl/tree/main/DocOwl2)
+- [OmniParser](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/tree/main/OCR/OmniParser)
+- [VisFocus](https://github.com/amazon-science/visfocus)
 
 
 ## Useful links
